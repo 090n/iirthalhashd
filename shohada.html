@@ -1,0 +1,526 @@
+  <!--بدايه صفحة -->
+</head>
+<body>
+	<div class="header">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="center-content">
+        <img class="logo" src="images/phonto.png" alt="شعار الموقع">
+
+    </div>
+<title>iPA SOP</title>
+</div>
+
+
+    <!--هنا اكواد الينك-->
+
+		
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">		
+		
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+ 
+  <!--هنا اكواد ميتا-->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+
+      
+  <!-- هنا اكواد الجافه سكربت-->
+
+
+    <script>
+window.addEventListener('load', function() {
+ if (!localStorage.getItem('messageShown')) {
+ alert('هذا الموقع محمي وآمن');
+ localStorage.setItem('messageShown', 'true');
+  }
+ });
+        
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-100px";
+    }
+  }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const audioElement = document.querySelector('.quranAudio');
+    const playButton = document.querySelector('.playButton');
+    const pauseButton = document.querySelector('.pauseButton');
+    const repeatButton = document.querySelector('.repeatButton');
+
+    playButton.addEventListener('click', function() {
+        audioElement.play();
+    });
+
+    pauseButton.addEventListener('click', function() {
+        audioElement.pause();
+    });
+
+    repeatButton.addEventListener('click', function() {
+        audioElement.currentTime = 0;
+        audioElement.play();
+    });
+});
+
+               
+    </script> 
+
+
+
+  
+  
+  
+  
+  
+<!--هنا اكواد اقسام الهيدر -->
+
+<nav id="navbar">
+    <ul>
+    <li><a href="about.html"> من نحن</a></li> 
+    </ul>
+    <a href="shohada.html">شهداء الحشد<a>
+          </ul>
+    <a href="category.html"> قادة الحشد</a>
+        </ul>
+    <a href="index.html">الرائيسية</a>
+        </ul>
+
+  </nav>
+
+  
+  
+  
+  
+  
+<!--هنا اكواد الاستايل -->
+  
+	<style>   
+  
+            .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .logo {
+            width: 200px; /* يمكنك ضبط هذا الحجم حسب احتياجك */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2em; /* حجم النص */
+            margin: 0;
+        }
+		.header {
+			text-align: center;
+			background-color: #f8f8f8;
+			padding: 10px 0;
+		}
+		h1 {
+			color: #333;
+			font-size: 24px;
+		}  
+  
+  
+      
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 3vh;
+}
+  
+  
+  
+  css
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar ul li {
+    margin: 0 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+#navbar a:hover {
+    color: #666;
+}
+
+  
+
+  
+  		body {
+			margin: 0;
+			padding: 0;
+     font-family: "Readex Pro", sans-serif;
+		}
+		header {
+			background-color: #333;
+			padding: 10px;
+			color: #fff;
+			text-align: center;
+			font-size: 20px;
+		}
+		nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #fff;
+			padding: 10px;
+			box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+		}
+		nav ul {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			margin-right: 20px;
+		}
+		nav ul li:last-child {
+			margin-right: 0;
+		}
+		nav a {
+			color: #333;
+			font-size: 16px;
+			text-decoration: none;
+		}
+		nav a:hover {
+			color: #777;
+		}
+  
+  
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+     font-family: "Readex Pro", sans-serif;
+			background: linear-gradient(to bottom, #f5f5f5, #f5f5f5);
+		}
+
+		.container{
+			width: 80%;
+			margin: 50px auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+		}
+
+		.app-img{
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			display: block;
+			border-radius: 10px;
+		}
+
+		.app-name{
+			font-size: 30px;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.app-description{
+			font-size: 18px;
+			text-align: center;
+			margin-top: 10px;
+		}
+
+		.download-btn{
+			display: block;
+			margin: 30px auto;
+			padding: 10px 20px;
+			background-color: #2F4F4F;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+
+    
+    .header {
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 24px;
+        color: #333;
+        animation: moveInPlace 2s infinite alternate;
+    }
+
+    @keyframes moveInPlace {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(10px);
+        }
+    }
+    
+    
+		@media only screen and (max-width: 480px){
+			.container{
+				width: 95%;
+			}
+
+			.app-img{
+				width: 360px;
+				height: 360px;
+			}
+
+			.app-name{
+				font-size: 20px;
+			}
+
+			.app-description{
+				font-size: 14px;
+			}
+
+			.download-btn{
+				margin: 15px auto;
+				font-size: 16px;
+			}
+		}
+    
+    
+    
+        .social-links {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+          }    
+    
+          
+          
+          
+                  .social-links {
+            position: fixed;
+            bottom: 45px;
+            right: 20px;
+            z-index: 111;
+        }
+
+        .social-links a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 16px;
+            color: #333;
+            font-family: 'Readex Pro', sans-serif;
+            margin: 0;
+          }
+          
+          
+                  .counter {
+            position: fixed;
+            bottom: 45px;
+            left: 20px;
+            z-index: 999;
+          }
+          
+          .footer-title span {
+    color: #2F4F4F;
+  }
+	
+
+.sura-text {
+    text-align: center; /* لتوسيط النص أفقياً */
+    margin: 0 auto; /* لتوسيط العنصر إذا كان له عرض محدد */
+    max-width: 600px; /* تحديد العرض الأقصى للعناصر إذا رغبت في تحديد عرض معين */
+    line-height: 1.6; /* لتحسين قراءة النص */
+    font-size: 18px; /* حجم الخط */
+    direction: rtl; /* الاتجاه من اليمين لليسار للنص العربي */
+}
+    .controls {
+        display: flex;
+        justify-content: center; /* لتوسيط العناصر أفقيًا */
+        align-items: center; /* لتوسيط العناصر عموديًا إذا كانت هناك ارتفاعات مختلفة */
+        margin-top: 20px; /* إضافة مسافة من الأعلى إذا لزم الأمر */
+    }
+
+    .button {
+        margin: 0 10px; /* إضافة مسافة بين الأزرار */
+    }
+	</style>
+  
+  
+  
+   <!--كود نشر تطبيقاتك من هنا -->
+
+
+	 
+	 
+  
+  
+	 
+  
+
+<div class="container">
+    <img src="images/M.png" alt="صورة القرآن" class="app-img">
+    <h1 class="app-name">الشهيد  محمد هاشم</h1>
+    <p class="app-description">AL-Faatihah سورة الفاتحة</p>
+    <audio class="quranAudio" src="AL-Faatihah سورة الفاتحة.m4a" loop></audio>
+    <div class="controls">
+        <button class="button playButton"><i class="fas fa-play"></i></button>
+        <button class="button pauseButton"><i class="fas fa-pause"></i></button>
+        <button class="button repeatButton"><i class="fas fa-redo"></i></button>
+    </div>
+    <div class="sura-text">
+        بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (1)<br>
+        الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (2)<br>
+        الرَّحْمَنِ الرَّحِيمِ (3)<br>
+        مَالِكِ يَوْمِ الدِّينِ (4)<br>
+        إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (5)<br>
+        اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (6)<br>
+        صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (7)<br>
+    </div>
+</div>
+
+<div class="container">
+    <img src="images/M.png" alt="صورة القرآن" class="app-img">
+    <h1 class="app-name">الشهيد  محمد هاشم</h1>
+    <p class="app-description">AL-Faatihah سورة الفاتحة</p>
+    <audio class="quranAudio" src="AL-Faatihah سورة الفاتحة.m4a" loop></audio>
+    <div class="controls">
+        <button class="button playButton"><i class="fas fa-play"></i></button>
+        <button class="button pauseButton"><i class="fas fa-pause"></i></button>
+        <button class="button repeatButton"><i class="fas fa-redo"></i></button>
+    </div>
+    <div class="sura-text">
+        بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (1)<br>
+        الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (2)<br>
+        الرَّحْمَنِ الرَّحِيمِ (3)<br>
+        مَالِكِ يَوْمِ الدِّينِ (4)<br>
+        إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (5)<br>
+        اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (6)<br>
+        صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (7)<br>
+    </div>
+</div>
+
+  
+
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+    
+    
+
+
+      
+
+
+
+
+
+    <!-- روابط تواصل الاجتماعي-->
+		
+
+    <!-- فوتر الموقع-->
+    <footer class="footer">
+        <p class="footer-title">Copyrights 2024 © | All Rights Reserved | Powered by<span>  iirthalhashd.rf.gd </span></p>
+        <div class="social-icons">
+    </div>
+		
+    
+    
+</body>
+</html>
